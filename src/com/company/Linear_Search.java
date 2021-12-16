@@ -1,6 +1,6 @@
 package com.company;
 
-public class Liner_Search {
+public class Linear_Search {
     public static void main(String[] params){
         int[] array = new int[] {64, 42, 73, 41, 32, 53, 66, 71, 22, 34, 55, 36, 16};
 
@@ -35,3 +35,5 @@ public class Liner_Search {
         return sb.toString();
     }
 }
+
+
