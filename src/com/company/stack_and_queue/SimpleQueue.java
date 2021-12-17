@@ -1,0 +1,25 @@
+package com.company.stack_and_queue;
+
+import java.util.ArrayList;
+
+public class SimpleQueue<T> implements Queue<T>{
+    private ArrayList<T> list = new ArrayList<T>();
+
+
+    @Override
+    public void add(T item) {
+        list.add(item);
+    }
+
+    @Override
+    public T remove() {
+        return list.remove(0);
+    }
+
+    @Override
+    public boolean isEmpty() {
+        return list.isEmpty();
+    }
+
+
+}
