@@ -21,5 +21,7 @@ public class SimpleQueue<T> implements Queue<T>{
         return list.isEmpty();
     }
 
-
+    public boolean contains(T item) {
+        return list.contains(item);
+    }
 }

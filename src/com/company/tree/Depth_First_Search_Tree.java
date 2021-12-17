@@ -1,6 +1,6 @@
-package com.company;
+package com.company.tree;
 
-public class Depth_First_Search {//Алгоритм поиска по дереву в глубину
+public class Depth_First_Search_Tree {//Алгоритм поиска по дереву в глубину
     public static  void main(String[] params) {
         Tree root =
                 new Tree(20,
