@@ -1,4 +1,4 @@
-package com.company;
+package com.company.search;
 
 import java.io.File;
 import java.util.ArrayList;

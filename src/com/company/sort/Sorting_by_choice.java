@@ -1,4 +1,4 @@
-package com.company;
+package com.company.sort;
 
 public class Sorting_by_choice {
 

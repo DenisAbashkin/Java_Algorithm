@@ -1,4 +1,4 @@
-package com.company;
+package com.company.JunitTest;
 
 public class Program_Numbers {
     public static void main(String[] args){

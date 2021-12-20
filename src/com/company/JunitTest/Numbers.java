@@ -1,4 +1,4 @@
-package com.company;
+package com.company.JunitTest;
 
 public class Numbers {
     public int sum(int number){

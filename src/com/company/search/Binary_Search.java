@@ -1,4 +1,4 @@
-package com.company;
+package com.company.search;
 
 public class Binary_Search {
     public static void main(String[] params){

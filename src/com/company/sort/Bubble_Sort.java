@@ -1,4 +1,4 @@
-package com.company;
+package com.company.sort;
 
 public class Bubble_Sort {
     public static void main(String[] args) {

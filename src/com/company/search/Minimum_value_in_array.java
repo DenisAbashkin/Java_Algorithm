@@ -1,4 +1,4 @@
-package com.company;
+package com.company.search;
 
 public class Minimum_value_in_array {
 

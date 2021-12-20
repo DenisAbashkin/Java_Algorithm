@@ -1,4 +1,4 @@
-package com.company;
+package com.company.search;
 
 public class Search_Second_Min_Element {
     public static void main(String[] args) {
