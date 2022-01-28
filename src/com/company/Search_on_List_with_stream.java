@@ -2,10 +2,9 @@ package com.company;
 
 import java.util.Arrays;
 import java.util.List;
-import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-public class Search_on_List {
+public class Search_on_List_with_stream {
 
     public static void main(String[] args) {
         List<String> countries = Arrays.asList("Germany", "Panama", "Australia", "One", "Two");
