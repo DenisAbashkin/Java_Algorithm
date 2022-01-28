@@ -33,7 +33,7 @@ public class Sort_Delete_Dublicats {
                 if(source[i] >= 0) {
                     if (source[i] == source[j])
                         indexStat[i]++;
-                }else throw new java.lang.Error("Есть элемент меньше 0");
+                }else throw new java.lang.Error("В массиве есть элемент меньше 0");
             }
         }
         int counter = 0; // счетчик колич. желаемых элементов
