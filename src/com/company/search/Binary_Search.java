@@ -7,6 +7,7 @@ public class Binary_Search {
         quickSort(array, 0, array.length-1);
         System.out.println("После быстрой сортировки: " + arrayToString(array));
 
+        System.out.println(numberOfGames(7));
         System.out.println(searchBinary(array, 42));
     }
 
@@ -91,7 +92,22 @@ public class Binary_Search {
     }
 
 
+    public static int numberOfGames(int x) {
+        x =3;
+        int AllRound = 0;
 
+       while (x>1){
+            if ((x%2) == 0) {
+                AllRound = AllRound + x/2;
+                x = x / 2;
+            }else {
+                AllRound = AllRound + (x-1)/2;
+                x = (x-1)/2 +1;
+            }
+        }
+        //System.out.println(nextRoundTeams);
+        return AllRound;
+    }
 
 
 
